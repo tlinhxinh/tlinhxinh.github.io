@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Gallery from './Gallery';
-import bg from "./img/bg.jpg";
+import bg from "./img/Birthday_2.jpg";
 import {useTypewriter, Cursor} from 'react-simple-typewriter'
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -33,7 +33,7 @@ function App() {
     setOpen(false);
   }
   const [text] = useTypewriter({
-    words: ['Hey (NAME OF SPECIAL PERSON), I know Im not the best when it comes to putting my feelings into words, but I wanted to share this with you. I hope you like it :) (Click on each photo when ur in).'],
+    words: ['Chúc mừng sinh nhật Tlinh xinh nhé! Chúc em tuổi mới luôn hạnh phúc, tươi cười, và đạt được mọi thành công trong cuộc sống. Anh luôn sẵn sàng ở đây để giúp đỡ em bất cứ khi nào em cần. Có những lúc anh chưa làm tốt như em mong đợi, hy vọng chúng ta sẽ luôn cùng nhau chia sẻ và vượt qua. Chúc em bốn mùa xuân, hạ, thu, đông đều tràn ngập niềm vui và sự ấm áp. (Click vào từng ảnh và bé Cinnamoroll để coi nhaa, ảnh nào cũng xinhh hết nên anh lấy 8 bức anh thích nhấtt :>) Love you to the moon and back, my White Moon Light! ❤️'],
    
     typeSpeed: 50,
     deleteSpeed: 80,

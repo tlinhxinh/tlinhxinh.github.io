@@ -16,9 +16,9 @@ import img7 from './img/img7.png'
 import img8 from './img/img8.png'
 import cGIF from './img/cinamorollDance.gif'
 import cStill from './img/cinStill.png'
-import skel from './img/songName.mp3'
+import skel from './img/happy-birthday-254480.mp3'
 
-import HVW from './img/HVW.png'
+import HVW from './img/freepik-export-20241112155518cA4E.png'
 const Gallery = () => {
    const [text, setText] = useState("");
   const [anchor, setAnchor] = React.useState(null);
@@ -29,33 +29,33 @@ const Gallery = () => {
   
   const toggleStyle =  (event, index) => {
     switch (index) {
-    case 1:
-      setText("03/28/2023. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
-      break;
     case 2:
-      setText("07/01/2023. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
+      setText("12/12/2024. Wishing you a day as beautiful, special, and unforgettable as your smilee. ");
+      break;
+    case 1:
+      setText("12/12/2024. You deserve all the happiness in the world today and every day—happy birthday, my White Moon Light!");
       break;
     case 3:
-      setText("08/16/2023. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
+      setText("12/12/2024. I hope every moment of your birthday is filled with love, laughter, and pure happiness.");
       break;
     case 4:
-      setText("08/26/2023. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
+      setText("12/12/2024. You light up my world in ways words can’t describe—happy birthdayyy");
       break;
     case 5:
-      setText("09/03/2023. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
+      setText("12/12/2024. You’re my reason for every smile, every laugh, and every heartbeat. Happy Birthdayy ");
       break;
     case 6:
-      setText("10/02/2023. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
+      setText("12/12/2024. Cheers to another year of adventures, laughter, and love with the most incredible person I knoww");
       break;
     case 7:
-      setText("01/01/2024. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
+      setText("12/12/2024. My life became infinitely brighter the moment you stepped into it. Happy Birthdayyy");
       break;
       
     case 8:
-      setText("01/27/2024. EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
+      setText("12/12/2024. Happy Birthday, my love! You are my greatest treasure, and I’m so lucky to have you in my lifee.");
       break;
     default:
-      setText("EXAMPLE TEXT (write something romantic for your partner/ something for your loved one) ");
+      setText("EXAMPLE TEXT (write something romantic for your partner/ something for your loved onee) ");
   }
 
     
@@ -118,9 +118,9 @@ const Gallery = () => {
   return (
     <>
    
-    <div style = {{marginLeft :isHorizontal ? "10vw": "10vw", marginTop: "-16vh"}}>     
-      <div style = {{ marginLeft :isHorizontal ? "7vw": "4vw",  marginBottom:"5vh"}}>
-        <img  style = {{ height:isHorizontal ? "60%": "80%", width: isHorizontal ? "60%": "80%"}} 
+    <div style = {{marginLeft :isHorizontal ? "30vw": "30vw", marginTop: "-10vh"}}>     
+      <div style = {{ marginLeft :isHorizontal ? "6vw": "5vw",  marginBottom:"2vh"}}>
+        <img  style = {{ height:isHorizontal ? "40%": "50%", width: isHorizontal ? "40%": "50%"}} 
         className={isZoomed ? 'zoomed' : 'notzoomed'}  
         src = {HVW} alt = "" /> 
       </div>
@@ -140,13 +140,13 @@ const Gallery = () => {
       
     </div >
   
-    <div   style = {{position: "relative", zIndex: 2, bottom:0,marginBottom:"-9vh", marginLeft :"-5vw", marginTop: "30vh",display: "flex"}}>
+    <div   style = {{position: "relative", zIndex: 2, bottom:0,marginBottom:"-8vh", marginLeft :"-5vw", marginTop: "30vh",display: "flex"}}>
        
     <Slide direction='out' in={currentStyle == 'slider'} mountOnEnter unmountOnExit >
      
       <img onClick={togglePlayback}  
        className= {!isPlaying? 'onScene' : ''} 
-       style = {{ height: isHorizontal ? "40%" : "70%" , width: isHorizontal ? "40%" : "70%",  display: "flex",marginBottom: isHorizontal ? "0%": "-6%" ,marginTop: isHorizontal ? "-26%":"-45%",marginLeft : isHorizontal ?"22%": "8vw"}} 
+       style = {{ height: isHorizontal ? "30%" : "50%" , width: isHorizontal ? "30%" : "50%",  display: "flex",marginBottom: isHorizontal ? "0%": "-6%" ,marginTop: isHorizontal ? "-10%":"-40%",marginLeft : isHorizontal ?"19%": "8vw"}} 
        src = {isPlaying? cGIF : cStill} alt = "Animated GIF"/>
        </Slide>
     
